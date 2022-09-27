@@ -1,11 +1,15 @@
-﻿using System;
+﻿using System;  
+
+
 namespace basic
 {
-    class program
+    
+    class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Welcome C Sharp");
+            
+            Console.WriteLine("Welcome to C-Sharp");
         }
     }
 }
