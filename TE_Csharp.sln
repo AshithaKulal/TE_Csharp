@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TE_Csharp", "TE_Csharp\TE_Csharp.csproj", "{8A20ED4B-4468-4EBA-B739-23873F1FDB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TE_Csharp", "TE_Csharp\TE_Csharp.csproj", "{8A20ED4B-4468-4EBA-B739-23873F1FDB6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet", "Dotnet\Dotnet.csproj", "{C1F9D5E1-4393-4686-B8D0-9B299A980D9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8A20ED4B-4468-4EBA-B739-23873F1FDB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A20ED4B-4468-4EBA-B739-23873F1FDB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A20ED4B-4468-4EBA-B739-23873F1FDB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F9D5E1-4393-4686-B8D0-9B299A980D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F9D5E1-4393-4686-B8D0-9B299A980D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F9D5E1-4393-4686-B8D0-9B299A980D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F9D5E1-4393-4686-B8D0-9B299A980D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

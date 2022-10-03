@@ -12,39 +12,38 @@ namespace TE_Csharp
         {
             
             Staff s=new Staff();
-            s.getBonus();
+            s.getBonus(3000);
             NonStaff n=new NonStaff();
-            n.getBonus();
+            n.getBonus(3000);
 
         }
     }
         public  class Bonus
         {
-            protected int bonus=10000;
-            protected void displaybonus()
+        protected int bonus;
+            protected void calcbonus(int factor, int salary)
             {
-                
+                bonus = factor * salary;  
                 Console.WriteLine(bonus);
-            }       
+
+            }      
         }
 
         public class Staff:Bonus
         {
-            public void getBonus()
+            public void getBonus(int salary)
             {
-                bonus = 3 * bonus;
                 Console.Write("The bonus for staff: ");
-                displaybonus();
+                calcbonus(3, salary);
             }
         }
         public class NonStaff : Bonus
         {
-            public void getBonus()
+            public void getBonus(int salary)
             {
-                bonus = 2 * bonus;
-            Console.Write("The bonus for Non staff: ");
-            displaybonus();
-            }
+            Console.Write("The bonus for staff: ");
+            calcbonus(2, salary);
+        }
         }
     
 }
