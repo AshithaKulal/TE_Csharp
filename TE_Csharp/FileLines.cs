@@ -13,8 +13,9 @@ namespace TE_Csharp
             string path = "C:\\Users\\EI13052\\Desktop\\CSharp\\tables.txt";
             string[] content;
 
-            content = File.ReadAllLines(path);
             //Read first line
+            content = File.ReadAllLines(path);
+            
             Console.WriteLine("First line of the file");
             Console.WriteLine(content[0]);
             Console.WriteLine("-------------------------------");

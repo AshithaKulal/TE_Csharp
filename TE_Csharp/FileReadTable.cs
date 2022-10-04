@@ -10,6 +10,8 @@ namespace TE_Csharp
     public class Table
     {
         public int result = 0;
+        
+        //write data to the file
         public void write()
         {
             using (StreamWriter sw = File.CreateText(@"C:\Users\EI13052\Desktop\CSharp\tables.txt"))
@@ -21,6 +23,8 @@ namespace TE_Csharp
                 }
             }
         }
+
+        //read from the file
         public void read()
         {
             using (StreamReader sr = File.OpenText(@"C:\Users\EI13052\Desktop\CSharp\tables.txt"))

@@ -12,6 +12,7 @@ namespace TE_Csharp
     {
         public static void Main()
         {
+            //file path
             string path = "C:\\Users\\EI13052\\Desktop\\CSharp\\tables.txt";
             string movepath = "C:\\Users\\EI13052\\Desktop\\tables.txt";
             string copypath = "C:\\Users\\EI13052\\Desktop\\CSharp\\table-copy.txt";
